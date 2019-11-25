@@ -1,0 +1,25 @@
+{
+  "name": "docker-lamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --proxy 'localhost' --files 'www' & sass --watch src/style.sass www/style.css",
+    "build": "sass src/style.sass www/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstaniszewski/docker-lamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hstaniszewski/docker-lamp/issues"
+  },
+  "homepage": "https://github.com/hstaniszewski/docker-lamp#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "i": "^0.3.6",
+    "sass": "^1.23.7"
+  }
+}
